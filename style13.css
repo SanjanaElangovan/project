@@ -1,0 +1,157 @@
+body{
+    background-image: url(10.jpg);
+}
+li{
+    display: inline;
+    
+}
+.head h1{
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
+.head{
+    background-color: black;
+    color:whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.head li{
+    text-decoration: none;
+    color: white;
+   
+    margin-top: 0;
+    margin-left: 10px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color:orange;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display:block;
+}
+.hero{
+    
+    height: 400px;
+  background-position: center;
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    margin-top: 140px;
+    
+}
+.hero p{
+    
+    font-family:cursive;
+    font-size:15px;
+    margin-top: -20px;
+    color: black;
+    font-style: bold;
+    
+}
+
+h2{
+    color:black;
+    
+}
+
+.column3 p{
+    font-size:20px;
+    color: black;
+}
+.column2 p{
+    font-size: 20px;
+    color:whitesmoke;
+}
+.column1 p{
+    font-size: 20px;
+    color: whitesmoke;
+}
+.column4 p{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.column5{
+    font-family: 'Galada', cursive;
+    color: black;
+    background-image: url(8.jpg);
+    height: 435px;
+    font-size: 30
+        
+}
+
+.column1{
+   
+    height: 500px;
+    max-width:1200px;
+}
+.column2{
+    height:500px;
+    width:1200px;
+    
+}
+.column3{
+    height:500px;
+    width: 1200px;
+    margin: 
+}
+.column4{
+    height:500px;
+    width:1200px;
+}
+.foot{
+    display: grid;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  background-color: beige;
+    padding: 20px 0px;
+    
+
+}
+
+ .fab {
+    width: 60px;
+     font-size: 40;
+     display: block;
+     margin-left: 55px;
+     padding-left: 33px;
+     margin-top: 33px;
+     color: black;
+}
+p{
+    text-align: center;
+    
+}
+h3{
+    text-align: center;
+}
+
+
+.fab:hover{
+    background-color: burlywood;
+    transition: all 0.40s;
+}
+
